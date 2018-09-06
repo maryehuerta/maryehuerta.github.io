@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@fortawesome/fontawesome-pro' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @fortawesome/fontawesome-pro
+8 silly fetchNamedPackageData @fortawesome/fontawesome-pro
+9 silly mapToRegistry name @fortawesome/fontawesome-pro
+10 silly mapToRegistry scope (from package name) @fortawesome
+11 verbose mapToRegistry no registry URL found in name for scope @fortawesome
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@fortawesome/fontawesome-pro',
+14 silly mapToRegistry   scope: '@fortawesome',
+14 silly mapToRegistry   escapedName: '@fortawesome%2ffontawesome-pro',
+14 silly mapToRegistry   name: '@fortawesome/fontawesome-pro',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@fortawesome%2ffontawesome-pro
+16 verbose request uri https://registry.npmjs.org/@fortawesome%2ffontawesome-pro
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 12:16:04 AM
+19 verbose request id 5d33bd93d8580bfd
+20 http request GET https://registry.npmjs.org/@fortawesome%2ffontawesome-pro
+21 http 404 https://registry.npmjs.org/@fortawesome%2ffontawesome-pro
+22 verbose headers { date: 'Mon, 03 Sep 2018 05:16:04 GMT',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'content-length': '21',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d92ef22be08619c6f64a982bba4ed1c601535951764; expires=Tue, 03-Sep-19 05:16:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-ray': '4545bdffc9315825-DFW',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 404,
+23 silly get   { date: 'Mon, 03 Sep 2018 05:16:04 GMT',
+23 silly get     'content-type': 'application/json',
+23 silly get     'content-length': '21',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d92ef22be08619c6f64a982bba4ed1c601535951764; expires=Tue, 03-Sep-19 05:16:04 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cf-ray': '4545bdffc9315825-DFW',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     server: 'cloudflare' } ]
+24 silly fetchPackageMetaData Error: Not found : @fortawesome/fontawesome-pro
+24 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+24 silly fetchPackageMetaData  error for @fortawesome/fontawesome-pro { Error: Not found : @fortawesome/fontawesome-pro
+24 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+24 silly fetchPackageMetaData   pkgid: '@fortawesome/fontawesome-pro',
+24 silly fetchPackageMetaData   statusCode: 404,
+24 silly fetchPackageMetaData   code: 'E404' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: Not found : @fortawesome/fontawesome-pro
+29 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+29 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+29 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+29 verbose stack     at emitTwo (events.js:106:13)
+29 verbose stack     at Request.emit (events.js:191:7)
+29 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+29 verbose stack     at emitOne (events.js:96:13)
+29 verbose stack     at Request.emit (events.js:188:7)
+29 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+30 verbose statusCode 404
+31 verbose pkgid @fortawesome/fontawesome-pro
+32 verbose cwd /Users/maryhuerta/dev/maryehuerta.github.io
+33 error Darwin 16.7.0
+34 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "@fortawesome/fontawesome-pro"
+35 error node v7.4.0
+36 error npm  v4.0.5
+37 error code E404
+38 error 404 Not found : @fortawesome/fontawesome-pro
+39 error 404
+40 error 404 '@fortawesome/fontawesome-pro' is not in the npm registry.
+41 error 404 You should bug the author to publish it (or use the name yourself!)
+42 error 404 Note that you can also install from a
+43 error 404 tarball, folder, http url, or git url.
+44 verbose exit [ 1, true ]
