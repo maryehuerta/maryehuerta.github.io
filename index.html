@@ -10,7 +10,6 @@
   <link href="./css/fontawesome-all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
   <!-- <link rel="shortcut icon" type="image/png" href="./images/Favicon.png"/> -->
-  <script type="text/javascript" src="./index.js"></script>
 </head>
 
 <body style="  background-color: #ecebeb;">
@@ -24,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="./index.html">Resume <span class="sr-only">(current)</span></a>
+          <a style="text-decoration: none; color: #957D95;" class="nav-link" href="https://drive.google.com/file/d/1mQuUGTe6q-KCB4UIABAhFbf7m33_-yAO/view?usp=sharing">Resume <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -33,7 +32,7 @@
   <div class="mx-1 mx-md-5">
 
   <!-- Jumbotron links to about us page and how to join-->
-  <div style="z-index: 1; margin:0px; margin-top: 16px; margin-bottom: 32px;" class="jumbotron text-center jumbotron-fluid">
+  <div class="mt-5 shadow-sm jumbotron text-center jumbotron-fluid">
     <div class="container text-center">
       <h1 class="display-2">Mary Huerta</h1>
       <h2 class="display-6">Software Engineer</h2>
@@ -41,37 +40,40 @@
   </div>
   
   <!-- Icons Grid for Mobi Links -->
-  <div style="padding:16px;  margin-bottom: 16px;" class="text-center container-fluid light-patterned-background">
+  <div class="p-3 mb-3 shadow-sm text-center container-fluid light-patterned-background">
     <h2 class="text-center"> Quick Links </h2>
 		<div class="row">
-			<!-- Join -->
-			<div class="col">
-				<div class="col-md">
-					<i class="fas fa-users fa-5x"></i>
-				</div>
-				<div class="col">
-						<button onclick="scrollToForm()" type="button" class="btn btn-primary">Join</button>
-				</div>
-			</div>
+			
 			<!-- Facebook -->
 			<div class="col">
 				<div class="col-md">
-						<i href="#" class="fab fa-facebook-square fa-5x"></i>
+						<i href="#" class="fab fa-github fa-5x"></i>
 				</div>
 				<div class="col">
-					<a href="https://www.facebook.com/MOBI.UTA/">
-						<button type="button" href="#" class="btn btn-primary">Facebook</button>
+					<a href="https://github.com/maryehuerta">
+						<button type="button" href="#" class="btn btn-primary">GitHub</button>
 					</a>
 				</div>
-			</div>
-
+      </div>
+      <!-- Facebook -->
+			<div class="col">
+          <div class="col-md">
+              <i href="#" class="fal fa-file fa-5x"></i>
+          </div>
+          <div class="col">
+            <a href="https://drive.google.com/file/d/1mQuUGTe6q-KCB4UIABAhFbf7m33_-yAO/view?usp=sharing">
+              <button type="button" href="#" class="btn btn-primary">Resume</button>
+            </a>
+          </div>
+        </div>
+      <!-- LinkedIn -->
 			<div class="col">
 				<div class="col-md">
-				<i href="#" class="fal fa-calendar-alt fa-5x"></i>
+				<i href="#" class="fab fa-linkedin-in fa-5x"></i>
 			</div>
 			<div class="col">
-					<a href="https://calendar.google.com/calendar/embed?src=uta.mobi%40gmail.com&ctz=America%2FChicago">
-						<button type="button" href="#" class="btn btn-primary">Calendar</button>
+					<a href="https://www.linkedin.com/in/mary-huerta-760393109/">
+						<button type="button" href="#" class="btn btn-primary">LinkedIn</button>
 					</a>
 				</div>
 			</div>
@@ -79,29 +81,30 @@
   </div>
   
   <!-- FAQ -->
-  <div style="padding-bottom: 8px;  margin-bottom: 16px;" class="dark-background">
-    <h2 class="text-center"> Notable Events </h2>
+  <div class="pb-3 mb-4 shadow-sm dark-background">
+    <h2 class="text-center"> Notable Experience </h2>
     <div class="container">
       <div class="row">
         <div class="col-sm">
-					<h4><strong> BuzzFeed Software Engineering Intern 2018</strong> <a href="https://tech.buzzfeed.com/we-were-the-2018-buzzfeed-intern-class-and-now-were-crying-in-the-club-because-summer-s-over-dba1dcb85e0a/#e02c">Medium Aricle Link</a> </h4>
+					<h4> <a href="https://tech.buzzfeed.com/we-were-the-2018-buzzfeed-intern-class-and-now-were-crying-in-the-club-because-summer-s-over-dba1dcb85e0a/#e02c"><strong> BuzzFeed Software Engineering Intern 2018</strong></a> </h4>
 					<div class="px-md-4">
 						<p> Created a moderation dashboard from scratch for <a href="https://tasty.co/">Tasty's</a> new user-submitted tips and ratings feature	</p>
 						<p> Additionally Designed and implemented more functionality for users and recipes to be searched/modified	</p>		
 					</div>
 						
-          <h4> <strong> TAMUHACK 2018 </strong> <a href="https://devpost.com/software/scribble-escape">Link to Devpost</a></h4>
+          <h4><a href="https://devpost.com/software/scribble-escape"> <strong> TAMUHACK 2018 Winner: Scribble Escape </strong></a></h4>
 					<div class="px-md-4">
-						<p> Best Use of Microsoft Cognitive Services API </p>
-						<p> Amazon Web Services - Best Use of AWS</p>
+            <p> Created the mobile assist app that connects to a Unity VR game using Socket.io. Added a drawing canvas so a user could draw game items, that the app sent as blobs to Azure’s Custom Vision Service to identify the doodle and spawn that in-game item. </p>
+            <p> Best Use of Microsoft Cognitive Services API </p>
+            <p> Amazon Web Services - Best Use of AWS</p>
 					</div>
 
-					<h4> <strong> Speaker 2017 </strong> <a href="https://devpost.com/software/scribble-escape">Link to Devpost</a></h4>
+					<h4><a href="http://idappthat.mobi/pages/Workshops.html"><strong> React.js Speaker 2017 </strong></a></h4>
 					<div class="px-md-4">
 						<p>Speaker for Workshops on iOS Development and React.JS for over 100 University Students at UTA</p>
 					</div>
 
-          <h4> <strong> Mobi President 2017 </strong><a href="https://devpost.com/software/scribble-escape">Link to Mobi Website</a></h4>
+          <h4><a href="https://mavorgs.campuslabs.com/engage/organization/mobi"><strong> Mobi President 2017 </strong></a></h4>
 					<div class="px-md-4">
 						<p> President of Student Association for the Advancement of Mobile Development (MOBI) </p>
 					</div>
@@ -111,20 +114,6 @@
       </div>
     </div>
   </div>
- 
-<!-- footer -->
-<div class="light-background footer row no-gutters text-center">
-    <div class="col-sm">
-      <a class="pl-2 footer-icon" href = "mailto: uta.mobi@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a class="pl-2 footer-icon" href="https://slack-idappthat.herokuapp.com/"><i class="fab fa-slack-hash"></i></a>
-      <a class="pl-2 footer-icon" href="https://www.facebook.com/MOBI.UTA/"> <i class="fab fa-facebook-f"></i> </a>
-      <a class="pl-2 footer-icon" href="https://github.com/idappthat/"><i class="fab fa-github"></i></a>
-    </div>
-    <div class="col-sm">
-      <p> Office: ERB #437 · 500 UTA Blvd · Arlington, TX 76019 · USA </p>
-    </div>
-</div>
-  
 
 </body>
 </html>
